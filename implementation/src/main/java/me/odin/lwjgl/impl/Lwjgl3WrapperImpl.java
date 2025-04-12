@@ -114,6 +114,16 @@ public class Lwjgl3WrapperImpl implements Lwjgl3Wrapper {
 	}
 
 	@Override
+	public void nvgSkewX(long ctx, float angle) {
+		NanoVG.nvgSkewX(ctx, angle);
+	}
+
+	@Override
+	public void nvgSkewY(long ctx, float angle) {
+		NanoVG.nvgSkewY(ctx, angle);
+	}
+
+	@Override
 	public void nvgRotate(long ctx, float angle) {
 		NanoVG.nvgRotate(ctx, angle);
 	}

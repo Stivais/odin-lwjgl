@@ -39,6 +39,10 @@ public interface Lwjgl3Wrapper {
 
 	void nvgTranslate(long ctx, float x, float y);
 
+	void nvgSkewX(long ctx, float angle);
+
+	void nvgSkewY(long ctx, float angle);
+
 	void nvgRotate(long ctx, float angle);
 
 	void nvgGlobalAlpha(long ctx, float alpha);
